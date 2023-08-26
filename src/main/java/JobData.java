@@ -14,6 +14,7 @@ import java.util.List;
  * Created by LaunchCode
  */
 public class JobData {
+    //If you want to create a new method in JobData or add a property, be sure to declare it as static.
 
     private static final String DATA_FILE = "src/main/resources/job_data.csv";
     private static boolean isDataLoaded = false;
