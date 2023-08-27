@@ -124,9 +124,9 @@ public class TechJobs {
             return;
         }
             for (HashMap<String, String> entry : someJobs) {
-                System.out.println("*****");
+                System.out.println("\n*****");
                 entry.forEach((key, value) -> System.out.println(key + ": " + value));
-                System.out.println("***** \n");
+                System.out.println("*****");
             }
     }
 }
