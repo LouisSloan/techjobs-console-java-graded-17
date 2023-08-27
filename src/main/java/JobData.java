@@ -99,9 +99,13 @@ public class JobData {
 
         for (HashMap<String, String> row : allJobs) {
 
-            if (row.containsValue(value)) {
+            String aValue = row.values().toString().toLowerCase();
+            if(aValue.contains(value)){
                 jobs.add(row);
             }
+//            if (row.containsValue(value)) {
+//                jobs.add(row);
+//            }
         }
 
         return jobs;
